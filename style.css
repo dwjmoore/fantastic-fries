@@ -1,4 +1,7 @@
-html, body {
-  height: 100%;
-  width: 100%;
+.contact-hours-wrapper {
+	color: royalblue;
+}
+
+.address-wrapper {
+	color: red;
 }
