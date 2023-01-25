@@ -169,3 +169,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .squares-wrapper > .squares > .square > .square-text-wrapper h1 {
 	color: #cea135;
+}
+
+/* Helpers */
+.spacer60 {
+	height: 60px;
+	width: 100%;
+}
