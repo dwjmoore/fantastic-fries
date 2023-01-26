@@ -20,6 +20,7 @@
 	<link href="/styles/skewed-header.css" rel="stylesheet" type="text/css" />
 	<link href="/styles/page-container.css" rel="stylesheet" type="text/css" />
 	<link href="/styles/contact.css" rel="stylesheet" type="text/css" />
+	<link href="/styles/form.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -81,13 +82,16 @@
 			</div>
 			<div class="form">
 				<div class="form-group">
-					Name
+					<input type="text" id="fullName" placeholder="Your name">
+					<label for="fullName">Your name</label>
 				</div>
 				<div class="form-group">
-					Email
+					<input type="email" id="email" placeholder="Your email">
+					<label for="email">Your email</label>
 				</div>
 				<div class="form-group">
-					Message
+					<textarea name="message" id="message">Message</textarea>
+					<label for="message">Message</label>
 				</div>
 				<div class="centered-btn wrapper">
 					<button type="submit">Send</button>
