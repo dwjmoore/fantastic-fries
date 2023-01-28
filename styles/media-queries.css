@@ -51,5 +51,49 @@
 
 	.footer > .logo-footer {
 	height: 100%;
-}
+	}
+
+	.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+		flex-direction: column;
+	}
+
+	.skewed-header > .header-bg {
+		background-size: 550px;
+	}
+
+	.page-container {
+		padding-left: 21px;
+		padding-right: 21px;
+	}
+
+	.page-container > .content-wrapper > #chef {
+		margin: 0px 0px 25px 0px;
+		width: 100%;
+	}
+
+	.squares-wrapper > .squares > .square {
+		grid-template-columns: 1fr;
+	}
+
+	.squares-wrapper > .squares > .square > .square-text-wrapper {
+		order: 1;
+	}
+
+	.squares-wrapper > .squares > .square > .img-wrapper {
+		order: 2;
+	}
+
+	.contact-grid-wrapper {
+		width: 100%;
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
+	}
+
+	.form input {
+		padding: 1.5rem 0rem;
+	}
+
+	.form textarea {
+		padding: 1.5rem 0rem;
+	}
 }
